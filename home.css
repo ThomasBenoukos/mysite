@@ -1,10 +1,10 @@
-/* home.css */
+/* index.css */
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #017f9e;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -43,7 +43,7 @@ section {
     width: 80%;
     text-align: center;
     margin: auto;
-    flex-grow: 1; /* Allow the section to grow to fill available space */
+    flex-grow: 1;
 }
 
 footer {
@@ -52,4 +52,6 @@ footer {
     text-align: center;
     padding: 1em;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
