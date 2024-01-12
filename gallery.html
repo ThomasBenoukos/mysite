@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Συλλογή</title>
     <link rel="stylesheet" href="home.css"> <!-- You can create a separate CSS file for the gallery if needed -->
+    <style>
+        #gallery-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .gallery-item {
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px; /* Optional: Add rounded corners */
+        }
+
+        .gallery-item p {
+            margin-top: 10px;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -20,22 +44,30 @@
     <section id="gallery-content">
         <!-- Example image code -->
         <div class="gallery-item">
-            <img src="https://example.com/image1.jpg" alt="Woodworking Project 1">
-            <p>Ξυλουργικό Έργο 1</p>
+            <img src="photos/15.jpg">
+            <img src="photos/34.jpg">
         </div>
 
         <div class="gallery-item">
-            <img src="https://example.com/image2.jpg" alt="Woodworking Project 2">
-            <p>Ξυλουργικό Έργο 2</p>
+            <img src="photos/27.jpg">
+            <img src="photos/38.jpg">
         </div>
 
-        <!-- Add more image items as needed -->
-
-        <!-- Example: Another image item -->
         <div class="gallery-item">
-            <img src="https://example.com/image3.jpg" alt="Woodworking Project 3">
-            <p>Ξυλουργικό Έργο 3</p>
+            <img src="photos/2.jpg">
+            <img src="photos/6.jpg">
         </div>
+
+        <div class="gallery-item">
+            <img src="photos/42.jpg">
+            <img src="photos/46.jpg">
+        </div>
+
+        <div class="gallery-item">
+            <img src="photos/39.jpg">
+            <img src="photos/37.jpg">
+        </div>
+
     </section>
 
     <footer>
