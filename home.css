@@ -1,7 +1,6 @@
-/* index.css */
+/* home.css */
 
 body {
-    overflow-x: hidden; /* Prevent horizontal scrolling */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden; /* Add this line to prevent horizontal scrolling */
 }
 
 header {
@@ -53,4 +53,6 @@ footer {
     text-align: center;
     padding: 1em;
     width: 100%;
+    position: relative; /* Change position to relative */
+    margin-top: auto; /* Add margin-top: auto */
 }
