@@ -52,8 +52,20 @@
             top: 10px;
             right: 10px;
             color: #fff;
-            font-size: 20px;
+            font-size: 50px;
             cursor: pointer;
+        }
+
+
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            z-index: 2;
         }
 
     </style>
@@ -71,57 +83,191 @@
 
     <section id="gallery-content">
         <!-- Example image code -->
-        <div class="gallery-item" onclick="openModal('photos/15.jpg')">
-            <img src="photos/15.jpg">
-            <img src="photos/34.jpg">
+        <div class="gallery-item" onclick="openModal('photosbig/11.jpg')">
+            <img src="photosbig/11.jpg">
         </div>
 
-        <div class="gallery-item" onclick="openModal('photos/15.jpg')">
-            <img src="photos/27.jpg">
-            <img src="photos/38.jpg">
+        <div class="gallery-item" onclick="openModal('photosbig/17.jpg')">
+            <img src="photosbig/17.jpg">
         </div>
 
-        <div class="gallery-item" onclick="openModal('photos/15.jpg')">
-            <img src="photos/2.jpg">
-            <img src="photos/6.jpg">
+        <div class="gallery-item" onclick="openModal('photosbig/12.jpg')">
+            <img src="photosbig/12.jpg">
         </div>
 
-        <div class="gallery-item" onclick="openModal('photos/15.jpg')">
-            <img src="photos/42.jpg">
-            <img src="photos/46.jpg">
+        <div class="gallery-item" onclick="openModal('photosbig/22.jpg')">
+            <img src="photosbig/22.jpg">
         </div>
 
-        <div class="gallery-item" onclick="openModal('photos/15.jpg')">
-            <img src="photos/39.jpg">
-            <img src="photos/37.jpg">
+        <div class="gallery-item" onclick="openModal('photossmall/17.jpg')">
+            <img src="photossmall/17.jpg">
         </div>
 
+        <div class="gallery-item" onclick="openModal('photosbig/13.jpg')">
+            <img src="photosbig/13.jpg">
+        </div>
+               
+        <div class="gallery-item" onclick="openModal('photosbig/20.jpg')">
+            <img src="photosbig/20.jpg">
+        </div>
 
+        <div class="gallery-item" onclick="openModal('photosbig/21.jpg')">
+            <img src="photosbig/21.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photosbig/23.jpg')">
+            <img src="photosbig/23.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photosbig/7.jpg')">
+            <img src="photosbig/7.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photosbig/9.jpg')">
+            <img src="photosbig/9.jpg">
+        </div>
+               
+        <div class="gallery-item" onclick="openModal('photosbig/8.jpg')">
+            <img src="photosbig/8.jpg">
+        </div>
+    
+        <div class="gallery-item" onclick="openModal('photosbig/1.jpg')">
+            <img src="photosbig/1.jpg">
+        </div>
+               
+        <div class="gallery-item" onclick="openModal('photosbig/4.jpg')">
+            <img src="photosbig/4.jpg">
+        </div>
+      
+        <div class="gallery-item" onclick="openModal('photosbig/5.jpg')">
+            <img src="photosbig/5.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photosbig/18.jpg')">
+            <img src="photosbig/18.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photosbig/19.jpg')">
+            <img src="photosbig/19.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photosbig/24.jpg')">
+            <img src="photosbig/24.jpg">
+        </div>
        
+        <div class="gallery-item" onclick="openModal('photosbig/3.jpg')">
+            <img src="photosbig/3.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photosbig/2.jpg')">
+            <img src="photosbig/2.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/9.jpg')">
+            <img src="photossmall/9.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/8.jpg')">
+            <img src="photossmall/8.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/3.jpg')">
+            <img src="photossmall/3.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/1.jpg')">
+            <img src="photossmall/1.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/23.jpg')">
+            <img src="photossmall/23.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/22.jpg')">
+            <img src="photossmall/22.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/24.jpg')">
+            <img src="photossmall/24.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/15.jpg')">
+            <img src="photossmall/15.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/21.jpg')">
+            <img src="photossmall/21.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/11.jpg')">
+            <img src="photossmall/11.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/20.jpg')">
+            <img src="photossmall/20.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/7.jpg')">
+            <img src="photossmall/7.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/19.jpg')">
+            <img src="photossmall/19.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/2.jpg')">
+            <img src="photossmall/2.jpg">
+        </div>
+
+        <div class="gallery-item" onclick="openModal('photossmall/5.jpg')">
+            <img src="photossmall/5.jpg">
+        </div>
+
         <!-- Add more image items as needed -->
 
     </section>
 
-    <!-- Modal for displaying larger image -->
+    <div class="modal-overlay" onclick="closeModal()"></div>
     <div id="myModal" class="modal">
         <span class="close" onclick="closeModal()">&times;</span>
         <img id="modalImage" src="" alt="Woodworking Project">
     </div>
+
 
     <footer>
         <p>Τηλέφωνο: 6969696969 email: example@info.com</p>
         <p>&copy; 2024 Τα πάντα για το ξύλο. Με επιφύλαξη παντός δικαιώματος.</p>
     </footer>
 
-    <script>
-        function openModal(imageSrc) {
+
+
+<script>
+    function openModal(imageSrc) {
+        if (event.target.tagName === 'IMG') {
             document.getElementById('myModal').style.display = 'flex';
             document.getElementById('modalImage').src = imageSrc;
+            document.body.style.overflow = 'hidden'; // Disable scrolling
         }
+    }
 
-        function closeModal() {
-            document.getElementById('myModal').style.display = 'none';
+    function closeModal() {
+        document.getElementById('myModal').style.display = 'none';
+        document.body.style.overflow = ''; // Enable scrolling
+    }
+
+    document.getElementById('gallery-content').addEventListener('click', function (event) {
+        if (event.target.tagName === 'IMG' && event.target.closest('.gallery-item')) {
+            openModal(event.target.src);
         }
-    </script>
+    });
+
+    document.getElementById('myModal').addEventListener('click', function (event) {
+        if (event.target === this || event.target.classList.contains('close')) {
+            closeModal();
+        }
+    });
+</script>
+
+    
 </body>
 </html>
